@@ -2,7 +2,7 @@ import math
 import cmath
 from mpmath import *
 
-b=10**(40)
+b=10**(20)
 c=4
 n=25
 d=(b/2)**2-c
