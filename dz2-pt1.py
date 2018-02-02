@@ -6,8 +6,9 @@ while True:
   if fib[-1] >= (4e+6):
     break
 
-for x in fib:
-  if(x % 2 == 0):
+ev=[x for x in fib if x%2 == 0]
+
+for x in ev:
     cube += x**3
     sq += x**2
     
